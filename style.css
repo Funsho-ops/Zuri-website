@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 body {
@@ -79,3 +80,160 @@ img{
     color: #514949;
     margin-bottom: 36px;
 }
+
+.team p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+a{
+    color: #e7332b;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .zuri-btn1{
+        margin-bottom: 50px;
+    }
+}
+
+.zuri-btn1{
+    margin-top: 92px;
+}
+
+@media(max-width: 768px){
+    button.my-btn{
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+.btn-red{
+    background-color: #e7332b;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.my-btn{
+    padding: 11px 28px;
+    border: 1px solid #e7332b;
+}
+
+/* section{
+    display: block;
+} */
+
+sections.programs-container{
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.container-fluid{
+    margin: 0 auto;
+    max-width: 1240px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.programs{
+    padding-top: 0 !important;
+}
+
+.container-fluid{
+    margin: 0 auto;
+    max-width: 1240px;
+    text-align: center;
+    max-width: 1440px !important;
+}
+
+.my-container{
+    max-width: 1240px !important;
+}
+
+.container-fluid{
+    max-width: 1440px !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.programs.heading{
+    font-size: 14px;
+    line-height: 24px;
+    color: #e7332b;
+    margin-top: 141px;
+}
+
+@media (max-width: 768px){
+    h3.heading{
+        margin-top: 60px !important;
+    }
+}
+
+.programs-card p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.programs.p.word{
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* .row{ 
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+
+.programs-card-zed{
+    position: relative;
+    z-index: 1;
+}
+
+.programs-card-zed{
+    height: 511px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: #fffafa;
+    padding: 61px 47px 82px 36px;
+    text-align: justify all;
+}
+
+.programs-card img{
+    margin-bottom: 48px;
+}
+
+.programs-card h3 a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #e7332b;
+    opacity: 0.9;
+}
+
+img.card-bg-svg-1{
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+

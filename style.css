@@ -178,13 +178,6 @@ img.card-bg-svg-2{
     margin-bottom: 48px;
 }
 
-
-
-
-
-
-
-
 .program-card p{
     font-size: 16px;
     line-height: 24px;
@@ -199,3 +192,47 @@ img.card-bg-svg-2{
     opacity: 0.9;
 }
 
+.footer {
+    margin-top: 215px;
+}
+
+.footer-flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+
+.footer h3{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+}
+
+.contact p, .address p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.contact-icons img{
+    width: 18px !important;
+    margin-right: 5px;
+}
+
+footer hr{
+    opacity: 0.2;
+    border: 0.7x solid #514949;
+}
+
+.copyright p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+}

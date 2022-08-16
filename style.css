@@ -1,21 +1,14 @@
-
-
-
-
-
+@import url('http://fonts.cdnfonts.com/css/graphik');
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+    font-family: 'Graphik', sans-serif;
 }
 
-a {
-    color: #e7332b;
-    text-decoration: none;
-}
-body {
+body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -24,23 +17,14 @@ body {
     background-color: #fff;
 }
 
-.container-fluid{
-    max-width: 1440px !important;
+a{
+    color: #e7332b;
+    text-decoration: none;
 }
+
 .my-container{
     max-width: 1240px !important;
 }
-
-.container-fluid{
-    max-width: 1440px !important;
-}
-
-
-
-
-
-
-
 .center-image{
     margin: auto;
     display: flex;
@@ -51,16 +35,6 @@ body {
 .center-image img{
     margin: auto;
 }
-
-
-
-
-
-
-
-
-
-
 
 .hero{
     padding: 10px;
@@ -78,16 +52,18 @@ body {
     margin-bottom: 36px;
 }
 
-
-
+.hero-container{
+    height: 800px;
+    background-image: url(/Image/hero-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
 .btn-div{
     margin-top: 92px;
+    display: block !important;
 }
-
-
-
-
 
 .my-btn{
     padding: 11px 28px;
@@ -100,42 +76,32 @@ body {
     margin-right: 24px;
 }
 
-.hero-container{
-    height: 800px;
-    background-image: url(/Image/hero-bg.svg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
 .btn-red-outline{
     background-color: #fff;
     color: #e7332b;
 }
 
-section.programs{
+section .programs{
     background-color: #fff;
     overflow: hidden;
 }
 
-.program-content{
-    padding-top: 0 !important;
-}
-
-.program-content .heading{
+.programs-content .heading{
     font-size: 14px;
     line-height: 24px;
     color: #e7332b;
     margin-top: 141px;
+    text-align: center;
 }
 
-.program-content p.slogan{
+.programs-content p.slogan{
     font-size: 24px;
     line-height: 40px;
     text-align: center;
     color: #514949;
     margin-top: 8px;
     margin-bottom: 64px;
+    text-align: center;
 }
 
 .container-fluid{
@@ -144,6 +110,7 @@ section.programs{
     text-align: center;
     border: 1px solid red;
 }
+
 .program-card{
     height: 511px;
     width: 100%;
@@ -153,9 +120,8 @@ section.programs{
     text-align: justify all;
 }
 
-.program-card-zed{
-    position: relative;
-    z-index: 1;
+.program-card-img{
+    margin-bottom: 48px;
 }
 
 img.card-bg-svg-1{
@@ -174,37 +140,16 @@ img.card-bg-svg-2{
     z-index: -1;
 }
 
-.program-card img {
-    margin-bottom: 48px;
+.program-card-zed{
+    position: relative;
+    z-index: 1;
 }
 
-.program-card p{
-    font-size: 16px;
-    line-height: 24px;
-    color: #514949;
-    opacity: 0.9;                                                                                                        
-}
-
-.program-card h3 a {
-    font-size: 16px;
-    line-height: 24px;
-    color: #e7332b;
-    opacity: 0.9;
-}
-
-.footer {
+.footer{
     margin-top: 215px;
 }
 
-.footer-flex-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 56px;
-    padding: 20px;
-}
-
-.footer h3{
+.footer h3 {
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
@@ -218,17 +163,12 @@ img.card-bg-svg-2{
     opacity: 0.9;
 }
 
-.contact-icons img{
-    width: 18px !important;
-    margin-right: 5px;
-}
-
-footer hr{
+footer hr {
     opacity: 0.2;
-    border: 0.7x solid #514949;
+    border: 0.7px solid #514949;
 }
 
-.copyright p{
+.copyright p {
     font-size: 16px;
     line-height: 24px;
     font-weight: bold;

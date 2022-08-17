@@ -1,4 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/graphik');
+
 *{
     margin: 0;
     padding: 0;
@@ -20,13 +21,6 @@ body{
 a{
     color: #e7332b;
     text-decoration: none;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 
 .my-container{
@@ -69,7 +63,8 @@ a{
 
 .btn-div{
     margin-top: 92px;
-    display: block !important;
+    display: flex;
+    text-align: center;
 }
 
 .my-btn:hover{
@@ -100,7 +95,7 @@ section .programs{
     overflow: hidden;
 }
 
-.programs-content .heading{
+.program-content .heading{
     font-size: 14px;
     line-height: 24px;
     color: #e7332b;
@@ -108,7 +103,7 @@ section .programs{
     text-align: center;
 }
 
-.programs-content p.slogan{
+.program-content p.slogan{
     font-size: 24px;
     line-height: 40px;
     text-align: center;
@@ -120,18 +115,27 @@ section .programs{
 
 .container-fluid{
     margin: 0 auto;
-    max-width: 1240px;
+    
     text-align: center;
-    border: 1px solid red;
+    
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.program-card-zed{
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
 .program-card{
-    height: 511px;
     width: 100%;
-    border: 1px solid red;
     background-color: #fffafa;
     padding: 61px 47px 82px 36px;
-    text-align: justify all;
 }
 
 .program-card-img{

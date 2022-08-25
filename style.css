@@ -26,6 +26,7 @@ a{
 .my-container{
     max-width: 1240px !important;
 }
+
 .center-image{
     margin: auto;
     display: flex;
@@ -91,7 +92,7 @@ a{
     color: #e7332b;
 }
 
-section .programs{
+section.programs{
     background-color: #fff;
     display: block;
     overflow: hidden;
@@ -120,61 +121,76 @@ section .programs{
 }
 
 .container-fluid{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 auto;
-    text-align: center;
+    display: flex;
     
 }
 
-.container-fluid.my-container{
-    display: flex;
-}
-
-.row{
+.zuri-training{
     margin: 10px;
-    padding: 20px;
-}
-
-.program-card-zed{
-    display: flex;
-    position: relative;
-    z-index: 1;
-}
-.program-card{
-    width: 100%;
+    padding: 50px;
     background-color: #fffafa;
-    padding: 61px 47px 82px 36px;
 }
 
-.program-card-img{
-    margin-bottom: 48px;
+.zuri-training p{
+        font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
 }
 
-img.card-bg-svg-1{
-    width: 100%;
+.zuri-internship{
+    margin: 10px;
+    padding: 50px;
+    background-color: #fffafa;
+
+}
+
+.zuri-internship p{
+        font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.zuri-talent{
+    height: 511px;
+    margin: 10px;
+    padding: 50px;
+    background-color: #fffafa;
+}
+
+.zuri-talent p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+/* img.card-bg-svg-1{
+    width: 50%;
     position: absolute;
     left: -120px;
     top: -75px;
-    z-index: -1;
-}
+} */
 
-img.card-bg-svg-2{
-    width: 90%;
+/* img.card-bg-svg-2{
+    width: 50%;
     position: absolute;
     right: -120px;
     top: -75px;
-    z-index: -1;
-}
+} */
 
-.program-card-zed{
-    position: relative;
-    z-index: 1;
-}
-
-.footer{
+.footer.my-container{
     margin-top: 215px;
+}
+
+.footer-flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .footer h3 {
@@ -194,6 +210,10 @@ img.card-bg-svg-2{
 footer hr {
     opacity: 0.2;
     border: 0.7px solid #514949;
+}
+
+.copyright{
+    text-align: center;
 }
 
 .copyright p {
